@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rock Paper Scissors</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+  <div class="top">
+    <h1>Rock Paper Scissors</h1>
+    <div class="chip" id="streak">Streak 0</div>
+  </div>
+
+  <section class="score" aria-label="Scoreboard">
+    <div id="you"><b id="sYou">0</b><span>You</span></div>
+    <div><b id="sDraw">0</b><span>Draws</span></div>
+    <div id="cpu"><b id="sCpu">0</b><span>Computer</span></div>
+  </section>
+
+  <section class="arena" id="arena">
+    <div><div class="disc" id="youDisc"><span class="hand" id="youHand">❔</span></div><div class="who">You</div></div>
+    <div class="vs">VS</div>
+    <div><div class="disc" id="cpuDisc"><span class="hand" id="cpuHand">❔</span></div><div class="who">Computer</div></div>
+  </section>
